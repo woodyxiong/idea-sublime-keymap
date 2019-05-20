@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+  </action>
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
   <action id="Back">
@@ -11,7 +14,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt left" />
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
-  <action id="CheckinProject" />
+  <action id="ChangeSignature" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -24,7 +30,9 @@
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
-  <action id="Console.Jdbc.Execute" />
+  <action id="Console.Jdbc.Execute">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="Console.Jpa.Execute" />
   <action id="Console.Jpa.GenerateSql" />
   <action id="Console.TableResult.EditValue">
@@ -38,6 +46,10 @@
   <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.CopyTable" />
   <action id="DatabaseView.ShowDiff" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
   <action id="DecreaseColumnWidth" />
   <action id="Diff.UpdatedFiles" />
   <action id="Editor Redo">
@@ -75,8 +87,11 @@
   </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPreviousWordWithSelection" />
-  <action id="EditorSelectWord">
+  <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="EditorSplitLine">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -120,7 +135,16 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt right" />
     <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl b" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
+  </action>
   <action id="Git.Push" />
+  <action id="Git.Rebase">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl r" />
+  </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -154,6 +178,8 @@
   <action id="MissingInActions.PreviousWordEndWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="ModifyObject" />
+  <action id="Move" />
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
   <action id="NextOccurence" />
@@ -162,11 +188,9 @@
   </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
-  <action id="PhpDetectPsroRoots">
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
   <action id="PreviousOccurence" />
   <action id="QuickEvaluateExpression" />
+  <action id="Refresh" />
   <action id="RemoteHostView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
     <mouse-shortcut keystroke="button2" />
@@ -182,10 +206,18 @@
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="Rerun" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+  </action>
+  <action id="RunToCursor">
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
@@ -202,6 +234,9 @@
   <action id="ShowBookmarks" />
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
@@ -229,6 +264,11 @@
   <action id="TypeHierarchy" />
   <action id="UML.ApplyCurrentLayout" />
   <action id="Uml.ShowDiff" />
+  <action id="UsageView.Rerun" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl p" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
