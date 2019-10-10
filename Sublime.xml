@@ -104,7 +104,6 @@
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl l" />
   </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
@@ -141,6 +140,9 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl l" />
+  </action>
   <action id="Git.Push" />
   <action id="Git.Rebase">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl r" />
@@ -148,19 +150,26 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="Git.Stash">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl s" />
+  </action>
+  <action id="Git.Unstash">
+    <keyboard-shortcut first-keystroke="shift k" second-keystroke="shift s" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="GotoTest" />
-  <action id="GotoTypeDeclaration">
-    <keyboard-shortcut first-keystroke="shift ctrl b" />
-  </action>
+  <action id="GotoTypeDeclaration" />
   <action id="HideAllWindows" />
   <action id="Images.ShowThumbnails" />
   <action id="ImplementMethods" />
@@ -189,7 +198,9 @@
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="PreviousOccurence" />
-  <action id="QuickEvaluateExpression" />
+  <action id="QuickEvaluateExpression">
+    <mouse-shortcut keystroke="control alt button1" />
+  </action>
   <action id="Refresh" />
   <action id="RemoteHostView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
